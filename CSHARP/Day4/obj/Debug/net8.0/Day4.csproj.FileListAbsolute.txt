@@ -1,0 +1,15 @@
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Day4/bin/Debug/net8.0/Day4
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Day4/bin/Debug/net8.0/Day4.deps.json
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Day4/bin/Debug/net8.0/Day4.runtimeconfig.json
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Day4/bin/Debug/net8.0/Day4.dll
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Day4/bin/Debug/net8.0/Day4.pdb
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Day4/obj/Debug/net8.0/Day4.GeneratedMSBuildEditorConfig.editorconfig
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Day4/obj/Debug/net8.0/Day4.AssemblyInfoInputs.cache
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Day4/obj/Debug/net8.0/Day4.AssemblyInfo.cs
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Day4/obj/Debug/net8.0/Day4.csproj.CoreCompileInputs.cache
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Day4/obj/Debug/net8.0/Day4.sourcelink.json
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Day4/obj/Debug/net8.0/Day4.dll
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Day4/obj/Debug/net8.0/refint/Day4.dll
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Day4/obj/Debug/net8.0/Day4.pdb
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Day4/obj/Debug/net8.0/Day4.genruntimeconfig.cache
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Day4/obj/Debug/net8.0/ref/Day4.dll

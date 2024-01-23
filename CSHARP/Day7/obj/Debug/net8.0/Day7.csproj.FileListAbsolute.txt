@@ -1,0 +1,15 @@
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Day7/bin/Debug/net8.0/Day7
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Day7/bin/Debug/net8.0/Day7.deps.json
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Day7/bin/Debug/net8.0/Day7.runtimeconfig.json
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Day7/bin/Debug/net8.0/Day7.dll
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Day7/bin/Debug/net8.0/Day7.pdb
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Day7/obj/Debug/net8.0/Day7.GeneratedMSBuildEditorConfig.editorconfig
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Day7/obj/Debug/net8.0/Day7.AssemblyInfoInputs.cache
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Day7/obj/Debug/net8.0/Day7.AssemblyInfo.cs
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Day7/obj/Debug/net8.0/Day7.csproj.CoreCompileInputs.cache
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Day7/obj/Debug/net8.0/Day7.sourcelink.json
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Day7/obj/Debug/net8.0/Day7.dll
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Day7/obj/Debug/net8.0/refint/Day7.dll
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Day7/obj/Debug/net8.0/Day7.pdb
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Day7/obj/Debug/net8.0/Day7.genruntimeconfig.cache
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Day7/obj/Debug/net8.0/ref/Day7.dll

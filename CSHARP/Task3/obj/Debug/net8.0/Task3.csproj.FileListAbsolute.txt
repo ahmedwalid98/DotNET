@@ -1,0 +1,15 @@
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Task3/bin/Debug/net8.0/Task3
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Task3/bin/Debug/net8.0/Task3.deps.json
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Task3/bin/Debug/net8.0/Task3.runtimeconfig.json
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Task3/bin/Debug/net8.0/Task3.dll
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Task3/bin/Debug/net8.0/Task3.pdb
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Task3/obj/Debug/net8.0/Task3.GeneratedMSBuildEditorConfig.editorconfig
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Task3/obj/Debug/net8.0/Task3.AssemblyInfoInputs.cache
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Task3/obj/Debug/net8.0/Task3.AssemblyInfo.cs
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Task3/obj/Debug/net8.0/Task3.csproj.CoreCompileInputs.cache
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Task3/obj/Debug/net8.0/Task3.sourcelink.json
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Task3/obj/Debug/net8.0/Task3.dll
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Task3/obj/Debug/net8.0/refint/Task3.dll
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Task3/obj/Debug/net8.0/Task3.pdb
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Task3/obj/Debug/net8.0/Task3.genruntimeconfig.cache
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Task3/obj/Debug/net8.0/ref/Task3.dll

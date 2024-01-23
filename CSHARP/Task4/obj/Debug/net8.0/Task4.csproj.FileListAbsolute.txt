@@ -1,0 +1,15 @@
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Task4/bin/Debug/net8.0/Task4
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Task4/bin/Debug/net8.0/Task4.deps.json
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Task4/bin/Debug/net8.0/Task4.runtimeconfig.json
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Task4/bin/Debug/net8.0/Task4.dll
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Task4/bin/Debug/net8.0/Task4.pdb
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Task4/obj/Debug/net8.0/Task4.GeneratedMSBuildEditorConfig.editorconfig
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Task4/obj/Debug/net8.0/Task4.AssemblyInfoInputs.cache
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Task4/obj/Debug/net8.0/Task4.AssemblyInfo.cs
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Task4/obj/Debug/net8.0/Task4.csproj.CoreCompileInputs.cache
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Task4/obj/Debug/net8.0/Task4.sourcelink.json
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Task4/obj/Debug/net8.0/Task4.dll
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Task4/obj/Debug/net8.0/refint/Task4.dll
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Task4/obj/Debug/net8.0/Task4.pdb
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Task4/obj/Debug/net8.0/Task4.genruntimeconfig.cache
+/home/ahmedwalid/Coding/DOTNET/ExerciseSLN/Task4/obj/Debug/net8.0/ref/Task4.dll
