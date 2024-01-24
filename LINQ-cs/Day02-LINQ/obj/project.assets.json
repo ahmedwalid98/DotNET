@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ahmedwalid/Coding/DotNET/LINQ-cs/Day01-LINQ/Day01-LINQ.csproj",
-      "projectName": "Day01-LINQ",
-      "projectPath": "/home/ahmedwalid/Coding/DotNET/LINQ-cs/Day01-LINQ/Day01-LINQ.csproj",
+      "projectUniqueName": "/home/ahmedwalid/Coding/DotNET/LINQ-cs/Day02-LINQ/Day02-LINQ.csproj",
+      "projectName": "Day02-LINQ",
+      "projectPath": "/home/ahmedwalid/Coding/DotNET/LINQ-cs/Day02-LINQ/Day02-LINQ.csproj",
       "packagesPath": "/home/ahmedwalid/.nuget/packages/",
-      "outputPath": "/home/ahmedwalid/Coding/DotNET/LINQ-cs/Day01-LINQ/obj/",
+      "outputPath": "/home/ahmedwalid/Coding/DotNET/LINQ-cs/Day02-LINQ/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/ahmedwalid/.nuget/NuGet/NuGet.Config"

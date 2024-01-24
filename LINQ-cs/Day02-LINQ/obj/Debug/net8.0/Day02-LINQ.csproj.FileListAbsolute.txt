@@ -1,0 +1,15 @@
+/home/ahmedwalid/Coding/DotNET/LINQ-cs/Day02-LINQ/bin/Debug/net8.0/Day02-LINQ
+/home/ahmedwalid/Coding/DotNET/LINQ-cs/Day02-LINQ/bin/Debug/net8.0/Day02-LINQ.deps.json
+/home/ahmedwalid/Coding/DotNET/LINQ-cs/Day02-LINQ/bin/Debug/net8.0/Day02-LINQ.runtimeconfig.json
+/home/ahmedwalid/Coding/DotNET/LINQ-cs/Day02-LINQ/bin/Debug/net8.0/Day02-LINQ.dll
+/home/ahmedwalid/Coding/DotNET/LINQ-cs/Day02-LINQ/bin/Debug/net8.0/Day02-LINQ.pdb
+/home/ahmedwalid/Coding/DotNET/LINQ-cs/Day02-LINQ/obj/Debug/net8.0/Day02-LINQ.GeneratedMSBuildEditorConfig.editorconfig
+/home/ahmedwalid/Coding/DotNET/LINQ-cs/Day02-LINQ/obj/Debug/net8.0/Day02-LINQ.AssemblyInfoInputs.cache
+/home/ahmedwalid/Coding/DotNET/LINQ-cs/Day02-LINQ/obj/Debug/net8.0/Day02-LINQ.AssemblyInfo.cs
+/home/ahmedwalid/Coding/DotNET/LINQ-cs/Day02-LINQ/obj/Debug/net8.0/Day02-LINQ.csproj.CoreCompileInputs.cache
+/home/ahmedwalid/Coding/DotNET/LINQ-cs/Day02-LINQ/obj/Debug/net8.0/Day02-LINQ.sourcelink.json
+/home/ahmedwalid/Coding/DotNET/LINQ-cs/Day02-LINQ/obj/Debug/net8.0/Day02-LINQ.dll
+/home/ahmedwalid/Coding/DotNET/LINQ-cs/Day02-LINQ/obj/Debug/net8.0/refint/Day02-LINQ.dll
+/home/ahmedwalid/Coding/DotNET/LINQ-cs/Day02-LINQ/obj/Debug/net8.0/Day02-LINQ.pdb
+/home/ahmedwalid/Coding/DotNET/LINQ-cs/Day02-LINQ/obj/Debug/net8.0/Day02-LINQ.genruntimeconfig.cache
+/home/ahmedwalid/Coding/DotNET/LINQ-cs/Day02-LINQ/obj/Debug/net8.0/ref/Day02-LINQ.dll
