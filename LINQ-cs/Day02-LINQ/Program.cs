@@ -107,17 +107,77 @@ class Program
         // var result = ProductList.Count();
         // result = ProductList.Count(p => p.UnitsInStock == 0);
 
-        var result = ProductList.Max(p => p.UnitPrice);
-        result = ProductList.Min(p => p.UnitPrice);
-        result = ProductList.Average(p => p.UnitPrice);
+        // var result = ProductList.Max(p => p.UnitPrice);
+        // result = ProductList.Min(p => p.UnitPrice);
+        // result = ProductList.Average(p => p.UnitPrice);
+        //
+        // Console.WriteLine(result);
 
-        Console.WriteLine(result);
+        #endregion
+        
+        #region Generators operators
+
+        // var result = Enumerable.Range(0, 10);
+        // result = Enumerable.Empty<int>();
+        // result = Enumerable.Repeat(3, 10);
 
         #endregion
 
-        // foreach (var product in result)
-        // {
-        //     Console.WriteLine(product);
-        // }
+        #region Select many
+
+        // var nameList = new List<string>() { "Ahmed walid", "Mohammed walid", "Mena walid" };
+        // var result = nameList.SelectMany(fn => fn.Split(' '));
+        //
+        // result = from fn in nameList
+        //     from ln in fn.Split(' ')
+        //     select ln;
+
+        #endregion
+
+        #region Casting operators
+        // ToList - ToArray - ToHashSet - ToDictinoary
+        // List<Product> result = ProductList.Where(p => p.UnitsInStock == 0).ToList();
+        // Product[] result = ProductList.Where(p => p.UnitsInStock == 0).ToArray();
+
+        #endregion
+
+        #region Set operators
+
+        // var seq1 = Enumerable.Range(0, 100);
+        // var seq2 = Enumerable.Range(50, 100);
+        //
+        // var result = seq1.Union(seq2);
+        // result = seq1.Concat(seq2);
+        // result = seq1.Distinct();
+        // result = seq1.Except(seq2);
+        // result = seq1.Intersect(seq2);
+
+        #endregion
+        
+        #region Quantifiers , return boolean
+
+        Console.WriteLine(ProductList.Any()); // return true if input seq has atleast 1 element
+
+        Console.WriteLine(ProductList.Any(p => p.UnitPrice > 200));
+        // return true if input seq have atleast 1 element matches the condition
+
+        Console.WriteLine(ProductList.All(p => p.UnitsInStock > 0));
+        // return true of all elements in input seq matches the conditions 
+
+        var seq01 = Enumerable.Range(0, 100);
+        var seq02 = Enumerable.Range(50, 100);
+
+        Console.WriteLine( seq01.SequenceEqual(seq02));
+
+
+
+
+
+        #endregion
+        
+        foreach (var product in result)
+        {
+            Console.WriteLine(product);
+        }
     }
 }
