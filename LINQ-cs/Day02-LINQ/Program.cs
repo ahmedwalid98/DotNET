@@ -125,7 +125,7 @@ class Program
 
         #region Select many
 
-        // var nameList = new List<string>() { "Ahmed walid", "Mohammed walid", "Mena walid" };
+        var nameList = new List<string>() { "Ahmed walid", "Mohammed walid", "Mena walid" };
         // var result = nameList.SelectMany(fn => fn.Split(' '));
         //
         // result = from fn in nameList
@@ -156,25 +156,43 @@ class Program
         
         #region Quantifiers , return boolean
 
-        Console.WriteLine(ProductList.Any()); // return true if input seq has atleast 1 element
-
-        Console.WriteLine(ProductList.Any(p => p.UnitPrice > 200));
-        // return true if input seq have atleast 1 element matches the condition
-
-        Console.WriteLine(ProductList.All(p => p.UnitsInStock > 0));
-        // return true of all elements in input seq matches the conditions 
-
-        var seq01 = Enumerable.Range(0, 100);
-        var seq02 = Enumerable.Range(50, 100);
-
-        Console.WriteLine( seq01.SequenceEqual(seq02));
+        // Console.WriteLine(ProductList.Any()); // return true if input seq has atleast 1 element
+        //
+        // Console.WriteLine(ProductList.Any(p => p.UnitPrice > 200));
+        // // return true if input seq have atleast 1 element matches the condition
+        //
+        // Console.WriteLine(ProductList.All(p => p.UnitsInStock > 0));
+        // // return true of all elements in input seq matches the conditions 
+        //
+        // var seq01 = Enumerable.Range(0, 100);
+        // var seq02 = Enumerable.Range(50, 100);
+        //
+        // Console.WriteLine( seq01.SequenceEqual(seq02));
 
 
 
 
 
         #endregion
-        
+
+        #region Zip
+
+         var numList = Enumerable.Range(0, 10);
+        // var result = nameList.Zip(numList, (fn, i) => new { i, Name = fn.ToUpper() });
+
+        #endregion
+
+        #region Grouping
+
+        var result = from p in ProductList
+            where p.UnitsInStock > 0
+            group p by p.Category
+            into prodGroup
+            where prodGroup.Count() > 10
+            orderby prodGroup.Count() descending
+            select new { Category = prodGroup.Key, ProductCount = prodGroup.Count() };
+
+        #endregion
         foreach (var product in result)
         {
             Console.WriteLine(product);
