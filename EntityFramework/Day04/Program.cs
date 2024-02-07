@@ -1,4 +1,6 @@
-﻿namespace Day04
+﻿using Day04.Models;
+
+namespace Day04
 {
     public class Program
     {
@@ -56,7 +58,60 @@
 
             #region projection
             var selectStocks = _context.Stocks.Select(i => new { StockId = i.Id, StockName = i.Name });
+            var distinctStocks = _context.Stocks.Select(i => new {i.Industry}).Distinct();
+            var skipTakeStocks = GetData(1, 10);
+            /*foreach (var item in skipTakeStocks)
+            {
+                Console.WriteLine(item.Id);
+            }*/
+            var groupByStocks = _context.Stocks
+                .GroupBy(i => i.Industry)
+                .Select(i => new {Name = i.Key, Count =  i.Count()});
+            /*
+                        foreach (var item in groupByStocks)
+                        {
+                            Console.WriteLine($"Name = {item.Name} - Count = {item.Count}");
+                        }
+            */
             #endregion
+
+            #region Joins
+            var books = _context.Books
+                .Join(
+                    _context.Authors,
+                    book => book.AuthorId,
+                    author => author.Id,
+                    (book, author) => new
+                    {
+                        BookName = book.Name,
+                        AuthorName = author.Name,
+                        author.NationalityId
+                    }
+                ).Join(
+                    _context.Nationalities,
+                    book => book.NationalityId,
+                    nationality => nationality.Id,
+                    (book, nationality) => new
+                    {
+                        book.BookName,
+                        book.AuthorName,
+                        nationality.Name,
+                    }
+                    
+                    );
+
+            /*foreach (var item in books)
+            {
+                Console.WriteLine($"{item.BookName} - {item.AuthorName} - {item.Name}");
+            }*/
+            #endregion
+
+        }
+
+        public static List<Stock> GetData(int pageNumber, int pageSize)
+        {
+            var _context = new ApplicationDbContext();
+            return _context.Stocks.Skip((pageNumber - 1) * pageSize).Take(pageSize).ToList();
         }
     }
 }

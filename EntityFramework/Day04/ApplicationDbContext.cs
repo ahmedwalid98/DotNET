@@ -16,5 +16,8 @@ namespace Day04
         }
 
         public DbSet<Stock> Stocks{ get; set; }
+        public DbSet<Book> Books { get; set; }
+        public DbSet<Author> Authors { get; set; }
+        public DbSet<Nationality> Nationalities  { get; set; }
     }
 }
