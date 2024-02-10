@@ -76,7 +76,7 @@ namespace Day04
             #endregion
 
             #region Joins
-            var books = _context.Books
+            /*var books = _context.Books
                 .Join(
                     _context.Authors,
                     book => book.AuthorId,
@@ -98,11 +98,22 @@ namespace Day04
                         nationality.Name,
                     }
                     
-                    );
+                    );*/
+
+            var books = (from b in _context.Books
+                         join a in _context.Authors
+                         on b.AuthorId equals a.Id
+                         select new
+                         {
+                             BookId = b.Id,
+                             BookName = b.Name,
+                             AuthorName = a.Name
+                         }
+                         ).ToList();
 
             /*foreach (var item in books)
             {
-                Console.WriteLine($"{item.BookName} - {item.AuthorName} - {item.Name}");
+                Console.WriteLine($"{item.BookName} - {item.AuthorName} ");
             }*/
             #endregion
 
